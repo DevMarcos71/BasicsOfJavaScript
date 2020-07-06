@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width = device-width, initial-scale=1.0" />
+    <title>Usando DOM</title>
+</head>
+
+<style>
+    body{
+        background-color: rgb(48, 157, 252);
+        color: azure;
+        font-size: 12pt;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
+
+<body>
+    <h1>Iniciando com <strong>DOM</strong></h1>
+    <p>Aqui o resultado: </p>
+    <p>Aprendendo a usar <strong>DOM</strong></p>
+    <div>Clique em mim</div>
+
+<script>
+    var p1 = window.document.getElementsByTagName('p')[1]
+
+    window.document.write("Escrito assim: " + p1.innerHTML) 
+
+</script>
+</body>
+
+
+</html>
